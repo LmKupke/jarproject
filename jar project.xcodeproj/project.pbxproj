@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		357AB881202657AD005A9737 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 357AB880202657AD005A9737 /* main.cpp */; };
+		357AB88920265936005A9737 /* jar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 357AB88720265936005A9737 /* jar.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		357AB87D202657AD005A9737 /* jar project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "jar project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		357AB880202657AD005A9737 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		357AB88720265936005A9737 /* jar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jar.cpp; sourceTree = "<group>"; };
+		357AB88A2026649A005A9737 /* jar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jar.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		357AB87F202657AD005A9737 /* jar project */ = {
 			isa = PBXGroup;
 			children = (
+				357AB88A2026649A005A9737 /* jar.hpp */,
 				357AB880202657AD005A9737 /* main.cpp */,
+				357AB88720265936005A9737 /* jar.cpp */,
 			);
 			path = "jar project";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				357AB881202657AD005A9737 /* main.cpp in Sources */,
+				357AB88920265936005A9737 /* jar.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
