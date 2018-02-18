@@ -8,12 +8,15 @@
     EDIT HISTORY:
     - 2/3/18 created the main.cpp file. Added implementation in the main method.
     - 2/10/18 added getInput method. Added Jar1.add(-5000). Add Jar 4,5,6
+    - 2/18/18 added Template to the get input function
 */
 #include <iostream>
 #include "jar.hpp"
 using namespace std;
 
-int getInput( int & n );
+
+template <typename T>
+int getInput( T & n );
 
 int main(int argc, const char * argv[]) {
     JarType jar1, jar2; // Create an object JarType jar2; // Create another object
@@ -58,9 +61,10 @@ int main(int argc, const char * argv[]) {
 // Description:  A function to ask user for a value
 // Return status: 0  a valid number is entered
 //                1  a valid number is not entered
-int getInput(int & n)
+template <typename T>
+int getInput(T & n)
 {
-    int temp;
+    T temp;
     
     std::cout << "Please enter number of units: ";
     
