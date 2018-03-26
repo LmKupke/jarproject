@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354CEDAE2068702E0086ECCC /* labeledJar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 354CEDAC2068702E0086ECCC /* labeledJar.cpp */; };
 		357AB881202657AD005A9737 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 357AB880202657AD005A9737 /* main.cpp */; };
 		357AB88920265936005A9737 /* jar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 357AB88720265936005A9737 /* jar.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		357AB87B202657AD005A9737 /* CopyFiles */ = {
+		357AB87B202657AD005A9737 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		354CEDAC2068702E0086ECCC /* labeledJar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = labeledJar.cpp; sourceTree = "<group>"; };
+		354CEDAD2068702E0086ECCC /* labeledJar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = labeledJar.hpp; sourceTree = "<group>"; };
 		357AB87D202657AD005A9737 /* jar project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "jar project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		357AB880202657AD005A9737 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		357AB88720265936005A9737 /* jar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jar.cpp; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 			children = (
 				357AB88A2026649A005A9737 /* jar.hpp */,
 				357AB880202657AD005A9737 /* main.cpp */,
+				354CEDAC2068702E0086ECCC /* labeledJar.cpp */,
+				354CEDAD2068702E0086ECCC /* labeledJar.hpp */,
 				357AB88720265936005A9737 /* jar.cpp */,
 			);
 			path = "jar project";
@@ -76,7 +82,7 @@
 			buildPhases = (
 				357AB879202657AD005A9737 /* Sources */,
 				357AB87A202657AD005A9737 /* Frameworks */,
-				357AB87B202657AD005A9737 /* CopyFiles */,
+				357AB87B202657AD005A9737 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -126,6 +132,7 @@
 			files = (
 				357AB881202657AD005A9737 /* main.cpp in Sources */,
 				357AB88920265936005A9737 /* jar.cpp in Sources */,
+				354CEDAE2068702E0086ECCC /* labeledJar.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +259,7 @@
 				357AB886202657AD005A9737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
